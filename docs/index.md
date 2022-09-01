@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: 书豪越来越强大
+heroText: 书豪向前冲！！
 tagline: 目标刻在石头上，计划写在沙滩上🚀
 actionText: 开始使用 →
 actionLink: /pages/944b81/
@@ -42,26 +42,16 @@ postList: none
 </p>
 
 ## 🎖特别用户
-::: cardList 3
+::: cardList 2
 ```yaml
-# - name: OpenHarmony
-#   desc: 开放原子开源基金会
-#   link: https://docs.openharmony.cn/pages/000000/
-#   bgColor: '#f1f1f1'
-#   textColor: '#2A3344'
-- name: MyBatis-Plus官网
-  desc: 🚀为简化开发而生
-  link: https://baomidou.com/
+- name: 掘金-时光屋小豪
+  desc: 🚀《React技术栈权威指南》作者
+  link: https://juejin.cn/user/2700056289091101
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
-- name: Deepin 社区
-  desc: Deepin 应用开发技术分享、DTK开发经验等
-  link: https://docs.deepin.org
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: VForm官网
-  desc: 低代码表单优选方案，拖拽式设计，一键生成源码
-  link: http://www.vform666.com
+- name: 掘金-我不是外星人
+  desc: 🚀小册《React进阶实践指南》作者
+  link: https://juejin.cn/user/2418581313687390/posts
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
 ```

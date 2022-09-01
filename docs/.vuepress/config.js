@@ -5,7 +5,7 @@ module.exports = {
   theme: "vdoing", // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "vuepress-theme-vdoing",
+  title: "前端界的知识海洋",
   description: "一个基于VuePress的 知识管理&博客 主题",
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [
@@ -30,14 +30,14 @@ module.exports = {
       { text: "首页", link: "/" },
       {
         text: "JavaScript",
-        link: "/pages/a2f161/",
+        link: "/pages/944b81/",
         items: [
           { text: "数据类型转换规则", link: "/pages/944b81/" },
           { text: "parseInt的处理规则", link: "/pages/e8f2c0/" },
           { text: "浏览器底层机制", link: "/pages/a8732d/" },
           { text: "浏览器进程与宏微任务", link: "/pages/4c7e91/" },
           { text: "函数执行的底层机制", link: "/pages/6d63ad/" },
-          { text: "内存管理和闭包", link: "/pages/2031fa/" },
+          { text: "作用域闭包", link: "/pages/2031fa/" },
           { text: "垃圾内存回收机制", link: "/pages/10f42d/" },
           { text: "尾递归调用和优化", link: "/pages/ca418e/" },
           { text: "从输入URL到页面展示发生了什么", link: "/pages/18e9ae/" },
