@@ -32,7 +32,8 @@ module.exports = {
         text: "JavaScript",
         link: "/pages/d55c9c/",
         items: [
-          { text: "浏览器原理-V8引擎-JS执行原理", link: "/pages/d55c9c/" },
+          { text: "浏览器内核-V8引擎", link: "/pages/d55c9c/" },
+          { text: "JavaScript执行底层机制", link: "/pages/a8732d/" },
           { text: "数据类型转换规则", link: "/pages/944b81/" },
           { text: "parseInt的处理规则", link: "/pages/e8f2c0/" },
           { text: "浏览器底层机制", link: "/pages/a8732d/" },
