@@ -34,10 +34,10 @@ module.exports = {
         items: [
           { text: "浏览器内核-V8引擎", link: "/pages/d55c9c/" },
           { text: "JavaScript执行底层机制", link: "/pages/a8732d/" },
+          { text: "闭包作用域", link: "/pages/2031fa/" },
           { text: "数据类型转换规则", link: "/pages/944b81/" },
           { text: "parseInt的处理规则", link: "/pages/e8f2c0/" },
           { text: "浏览器进程与宏微任务", link: "/pages/4c7e91/" },
-          { text: "作用域闭包", link: "/pages/2031fa/" },
           { text: "垃圾内存回收机制", link: "/pages/10f42d/" },
           { text: "尾递归调用和优化", link: "/pages/ca418e/" },
           { text: "从输入URL到页面展示发生了什么", link: "/pages/18e9ae/" },
@@ -48,7 +48,7 @@ module.exports = {
               { text: "Promise API的使用大全", link: "/pages/f38dc6/" },
               { text: "手写Promise API", link: "/pages/2df575/" },
               { text: "迭代器和可迭代对象", link: "/pages/aa2693/" },
-              { text: "生成器函数", link: "/pages/aa2693/" },
+              { text: "生成器函数", link: "/pages/540841/" },
               {
                 text: "迭代器和生成器对象（周啸天版）",
                 link: "/pages/826a30/",
@@ -72,8 +72,27 @@ module.exports = {
       },
       { text: "资源", link: "/pages/db78e2/" },
       { text: "案例", link: "/pages/5d571c/" },
-      { text: "问答", link: "/pages/9cc27d/" },
-      { text: "💖支持", link: "/pages/1b12ed/" },
+      {
+        text: "配置",
+        link: "/pages/a20ce8/",
+        items: [
+          { text: "主题配置", link: "/pages/a20ce8/" },
+          { text: "首页配置", link: "/pages/f14bdb/" },
+          { text: "数据类型转换规则", link: "/pages/915b5e/" },
+          { text: "目录页配置", link: "/pages/54651a/" },
+          { text: "添加摘要", link: "/pages/1cc523/" },
+          { text: "修改主题颜色和样式", link: "/pages/f51918/" },
+          { text: "评论栏", link: "/pages/ce175c/" },
+        ],
+      },
+      {
+        text: "项目相关",
+        link: "/pages/0f8536/",
+        items: [
+          { text: "三种获取URL参数值的方法", link: "/pages/0f8536/" },
+          { text: "三种获取URL参数值的方法", link: "/pages/419b59/" },
+        ],
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/logo.png", // 导航栏logo
@@ -137,7 +156,7 @@ module.exports = {
     footer: {
       // 页脚信息
       createYear: 2022, // 博客创建年份
-      copyrightInfo: "Evan Xu | MIT License", // 博客版权信息，支持a标签
+      copyrightInfo: "jasonshu1229 | MIT License", // 博客版权信息，支持a标签
     },
     // htmlModules,
   },

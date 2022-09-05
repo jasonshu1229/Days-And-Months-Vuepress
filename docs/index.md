@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.png
+heroImage: /img/touxiang.jpg
 heroText: 书豪向前冲！！
 tagline: 目标刻在石头上，计划写在沙滩上🚀
 actionText: 开始使用 →
