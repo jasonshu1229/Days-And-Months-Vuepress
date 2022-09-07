@@ -29,6 +29,11 @@ module.exports = {
     nav: [
       { text: "首页", link: "/" },
       {
+        text: "HTML/CSS",
+        link: "/pages/a20ce8/",
+        items: [{ text: "主题配置", link: "/pages/a20ce8/" }],
+      },
+      {
         text: "JavaScript",
         link: "/pages/d55c9c/",
         items: [
@@ -37,10 +42,8 @@ module.exports = {
           { text: "闭包作用域", link: "/pages/2031fa/" },
           { text: "数据类型转换规则", link: "/pages/944b81/" },
           { text: "parseInt的处理规则", link: "/pages/e8f2c0/" },
-          { text: "浏览器进程与宏微任务", link: "/pages/4c7e91/" },
           { text: "垃圾内存回收机制", link: "/pages/10f42d/" },
           { text: "尾递归调用和优化", link: "/pages/ca418e/" },
-          { text: "从输入URL到页面展示发生了什么", link: "/pages/18e9ae/" },
           {
             text: "JS高级",
             items: [
@@ -57,32 +60,16 @@ module.exports = {
           },
         ],
       },
+      { text: "Vue3", link: "/pages/db78e2/" },
       {
-        text: "配置",
-        link: "/pages/a20ce8/",
+        text: "React",
+        link: "/pages/c55120/",
         items: [
-          { text: "主题配置", link: "/pages/a20ce8/" },
-          { text: "首页配置", link: "/pages/f14bdb/" },
-          { text: "数据类型转换规则", link: "/pages/915b5e/" },
-          { text: "目录页配置", link: "/pages/54651a/" },
-          { text: "添加摘要", link: "/pages/1cc523/" },
-          { text: "修改主题颜色和样式", link: "/pages/f51918/" },
-          { text: "评论栏", link: "/pages/ce175c/" },
-        ],
-      },
-      { text: "资源", link: "/pages/db78e2/" },
-      { text: "案例", link: "/pages/5d571c/" },
-      {
-        text: "配置",
-        link: "/pages/a20ce8/",
-        items: [
-          { text: "主题配置", link: "/pages/a20ce8/" },
-          { text: "首页配置", link: "/pages/f14bdb/" },
-          { text: "数据类型转换规则", link: "/pages/915b5e/" },
-          { text: "目录页配置", link: "/pages/54651a/" },
-          { text: "添加摘要", link: "/pages/1cc523/" },
-          { text: "修改主题颜色和样式", link: "/pages/f51918/" },
-          { text: "评论栏", link: "/pages/ce175c/" },
+          { text: "Hooks API 大全", link: "/pages/c55120/" },
+          {
+            text: "React进阶",
+            items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
+          },
         ],
       },
       {
