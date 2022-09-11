@@ -45,7 +45,7 @@ module.exports = {
           { text: "垃圾内存回收机制", link: "/pages/10f42d/" },
           { text: "尾递归调用和优化", link: "/pages/ca418e/" },
           {
-            text: "JS高级",
+            text: "ES6~ES12的相关知识点",
             items: [
               { text: "异步处理方案", link: "/pages/db9dd0/" },
               { text: "Promise API的使用大全", link: "/pages/f38dc6/" },
