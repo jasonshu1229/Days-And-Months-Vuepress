@@ -61,15 +61,21 @@ module.exports = {
             text: "React进阶",
             items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
           },
+          {
+            text: "《React权威技术指南》",
+            items: [
+              {
+                text: "认识 useCallback 和 useMemo",
+                link: "/pages/983d06/",
+              },
+            ],
+          },
         ],
       },
       {
         text: "项目相关",
         link: "/pages/0f8536/",
-        items: [
-          { text: "三种获取URL参数值的方法", link: "/pages/0f8536/" },
-          { text: "三种获取URL参数值的方法", link: "/pages/419b59/" },
-        ],
+        items: [{ text: "三种获取URL参数值的方法", link: "/pages/0f8536/" }],
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
