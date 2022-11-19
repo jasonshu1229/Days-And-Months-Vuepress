@@ -51,9 +51,22 @@ module.exports = {
           },
         ],
       },
-      { text: "Vue3", link: "/pages/db78e2/" },
       {
-        text: "React",
+        text: "Vue3/React",
+        link: "/pages/db78e2/",
+        items: [
+          {
+            text: "Vue3",
+            items: [{ text: "Hooks API 大全", link: "/pages/c55120/" }],
+          },
+          {
+            text: "React",
+            items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
+          },
+        ],
+      },
+      {
+        text: "八股文面试",
         link: "/pages/c55120/",
         items: [
           { text: "Hooks API 大全", link: "/pages/c55120/" },
@@ -61,21 +74,26 @@ module.exports = {
             text: "React进阶",
             items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
           },
-          {
-            text: "《React权威技术指南》",
-            items: [
-              {
-                text: "认识 useCallback 和 useMemo",
-                link: "/pages/983d06/",
-              },
-            ],
-          },
         ],
       },
       {
-        text: "项目相关",
+        text: "项目",
         link: "/pages/0f8536/",
-        items: [{ text: "三种获取URL参数值的方法", link: "/pages/0f8536/" }],
+        items: [
+          // { text: "三种获取URL参数值的方法1", link: "/pages/0f8536/" },
+          // {
+          //   text: "爱彼迎",
+          //   items: [{ text: "xxx", link: "/pages/0f8536/" }],
+          // },
+          // {
+          //   text: "网易云音乐",
+          //   items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
+          // },
+          // {
+          //   text: "后台管理系统",
+          //   items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
+          // },
+        ],
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
