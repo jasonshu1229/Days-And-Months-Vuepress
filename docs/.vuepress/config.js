@@ -69,10 +69,26 @@ module.exports = {
         text: "八股文面试",
         link: "/pages/c55120/",
         items: [
-          { text: "Hooks API 大全", link: "/pages/c55120/" },
           {
-            text: "React进阶",
-            items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
+            text: "JavaScript篇",
+            items: [
+              {
+                text: "面试题汇总之JavaScript篇（上）",
+                link: "/pages/8ed6e1/",
+              },
+            ],
+          },
+          {
+            text: "浏览器原理篇",
+            items: [
+              { text: "面试题汇总之浏览器原理篇篇", link: "/pages/5fa8ac/" },
+            ],
+          },
+          {
+            text: "计算机网络篇",
+            items: [
+              { text: "面试题汇总之计算机网络篇", link: "/pages/68d13b/" },
+            ],
           },
         ],
       },
@@ -97,7 +113,7 @@ module.exports = {
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: "/img/logo.png", // 导航栏logo
+    logo: "/img/logo.jpg", // 导航栏logo
     repo: "xugaoyi/vuepress-theme-vdoing", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
