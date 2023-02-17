@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         text: "Vue3/React",
-        link: "/pages/72d1b0/",
+        link: "/pages/db78e2/",
         items: [
           {
             text: "Vue3",
@@ -61,8 +61,7 @@ module.exports = {
           },
           {
             text: "React",
-            link: "/pages/72d1b0/",
-            items: [{ text: "01.React初体验", link: "/pages/72d1b0/" }],
+            items: [{ text: "Fiber", link: "/pages/a1bbd2/" }],
           },
         ],
       },

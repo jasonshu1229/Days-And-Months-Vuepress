@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         text: "Vue3/React",
-        link: "/pages/72d1b0/",
+        link: "/pages/db78e2/",
         items: [
           {
             text: "Vue3",
