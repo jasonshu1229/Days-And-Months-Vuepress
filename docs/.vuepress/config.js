@@ -46,13 +46,9 @@ module.exports = {
         link: "/pages/38ef61/",
       },
       {
-        text: "Vue3/React",
+        text: "React",
         link: "/pages/72d1b0/",
         items: [
-          {
-            text: "Vue3",
-            items: [{ text: "Hooks API 大全", link: "/pages/c55120/" }],
-          },
           {
             text: "React",
             link: "/pages/72d1b0/",
