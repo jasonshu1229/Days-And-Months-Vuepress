@@ -5,7 +5,7 @@ module.exports = {
   theme: "vdoing", // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "前端界的知识海洋",
+  title: "lshrs的前端库",
   description: "一个基于VuePress的 知识管理&博客 主题",
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [
@@ -14,11 +14,9 @@ module.exports = {
     ["meta", { name: "keywords", content: "vuepress,theme,blog,vdoing" }],
     ["meta", { name: "theme-color", content: "#11a8cd" }], // 移动浏览器主题颜色
   ],
-
   // 主题配置
   themeConfig: {
     nav: [
-      { text: "首页", link: "/" },
       {
         text: "HTML/CSS",
         link: "/pages/a20ce8/",
@@ -30,19 +28,11 @@ module.exports = {
         items: [
           { text: "浏览器内核-V8引擎", link: "/pages/d55c9c/" },
           { text: "JavaScript执行底层机制", link: "/pages/a8732d/" },
-          { text: "闭包作用域", link: "/pages/2031fa/" },
-          { text: "数据类型转换规则", link: "/pages/944b81/" },
-          { text: "parseInt的处理规则", link: "/pages/e8f2c0/" },
-          { text: "垃圾内存回收机制", link: "/pages/10f42d/" },
-          { text: "尾递归调用和优化", link: "/pages/ca418e/" },
           {
             text: "ES6~ES12的相关知识点",
             items: [
               { text: "异步处理方案", link: "/pages/db9dd0/" },
               { text: "Promise API的使用大全", link: "/pages/f38dc6/" },
-              { text: "手写Promise API", link: "/pages/2df575/" },
-              { text: "迭代器和可迭代对象", link: "/pages/aa2693/" },
-              { text: "生成器函数", link: "/pages/540841/" },
               {
                 text: "迭代器和生成器对象（周啸天版）",
                 link: "/pages/826a30/",
@@ -50,6 +40,10 @@ module.exports = {
             ],
           },
         ],
+      },
+      {
+        text: "TypeScript",
+        link: "/pages/38ef61/",
       },
       {
         text: "Vue3/React",
