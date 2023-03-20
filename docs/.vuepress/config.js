@@ -102,6 +102,16 @@ module.exports = {
           // },
         ],
       },
+      {
+        text: "算法",
+        link: "/pages/733aa9/",
+        items: [
+          {
+            text: "字符串",
+            link: "/pages/733aa9/",
+          },
+        ],
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/logo.jpg", // 导航栏logo
