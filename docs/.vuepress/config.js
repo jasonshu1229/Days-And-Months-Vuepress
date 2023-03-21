@@ -171,7 +171,7 @@ module.exports = {
         {
           iconClass: "icon-github",
           title: "GitHub",
-          link: "https://github.com/xugaoyi",
+          link: "https://github.com/jasonshu1229",
         },
         {
           iconClass: "icon-erji",

@@ -28,7 +28,7 @@ simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10
 ::: cardList 2
 ```yaml
 - name: 掘金-时光屋小豪
-  desc: 🚀《xxx》作者
+  desc: 🚀《React权威技术指南》作者
   link: https://juejin.cn/user/2700056289091101
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
