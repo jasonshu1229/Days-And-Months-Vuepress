@@ -52,7 +52,15 @@ module.exports = {
           {
             text: "React",
             link: "/pages/72d1b0/",
-            items: [{ text: "01.React初体验", link: "/pages/72d1b0/" }],
+            items: [
+              { text: "React初体验", link: "/pages/72d1b0/" },
+              { text: "实现JSX转换", link: "/pages/60f72c/" },
+              { text: "Fiber架构的实现原理", link: "/pages/10307f/" },
+              {
+                text: "Reconciler架构的双缓存树实现原理",
+                link: "/pages/96bf34/",
+              },
+            ],
           },
         ],
       },
