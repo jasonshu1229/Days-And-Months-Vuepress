@@ -66,7 +66,7 @@ module.exports = {
       },
       {
         text: "八股文面试",
-        link: "/pages/c55120/",
+        link: "/pages/8ed6e1/",
         items: [
           {
             text: "JavaScript篇",
